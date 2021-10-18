@@ -1,0 +1,31 @@
+{
+  "name": "acme-warehouse-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "check": "tsc --noEmit true",
+    "test": "tap test/*",
+    "ci": "npm run lint && npm run check && npm test"
+  },
+  "keywords": [],
+  "author": "Simone Sanfratello <simone.sanfratello@nearform.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "jsdoc": "^3.6.7",
+    "rimraf": "^3.0.2",
+    "standard": "^16.0.3",
+    "tap": "^15.0.10",
+    "typescript": "^4.0.8"
+  },
+  "dependencies": {
+    "acme-factory-lib": "file:../acme-factory-lib/acme-factory-lib-1.0.0.tgz",
+    "ajv": "^6.12.6",
+    "email-validator": "^2.0.4",
+    "fastify": "^3.21.6",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "allowJs": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "declarationDir": "types",
+    "declaration": true
+  },
+  "include": ["**.js", "**.d.ts"],
+  "exclude": ["node_modules"]
+}

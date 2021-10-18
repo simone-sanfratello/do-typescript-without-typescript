@@ -1,0 +1,24 @@
+{
+  "name": "acme-factory-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "export": "rimraf types/* && tsc --emitDeclarationOnly true --noEmitOnError && cp global.d.ts types",
+    "check": "tsc --noEmit true",
+    "test": "tap test/*",
+    "ci": "npm run lint && npm run check && npm test"
+  },
+  "author": "Simone Sanfratello <simone.sanfratello@nearform.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc": "^3.6.7",
+    "rimraf": "^3.0.2",
+    "standard": "^16.0.3",
+    "tap": "^15.0.10",
+    "typescript": "^4.4.3"
+  }
+}

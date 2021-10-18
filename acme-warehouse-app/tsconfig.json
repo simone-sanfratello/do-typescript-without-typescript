@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "allowJs": true,
+    "strict": false,
+    "esModuleInterop": true
+  },
+  "include": ["**.js", "lib/storage.js"],
+  "exclude": ["node_modules"]
+}
