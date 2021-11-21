@@ -1,6 +1,6 @@
-# "Do TypeScript without TypeScript" NodeConf 2021 talk
+# "Do TypeScript without TypeScript"
 
-The repo contains demo code for the talk.
+The repo contains demo code of the talk.
 
 ---
 
